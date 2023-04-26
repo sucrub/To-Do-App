@@ -41,10 +41,10 @@ export default function Filters() {
             <Tag color='red'>High</Tag>
           </Select.Option>
           <Select.Option value='Medium' label='Medium'>
-            <Tag color='blue'>Medium</Tag>
+            <Tag color='yellow'>Medium</Tag>
           </Select.Option>
           <Select.Option value='Low' label='Low'>
-            <Tag color='gray'>Low</Tag>
+            <Tag color='green'>Low</Tag>
           </Select.Option>
         </Select>
       </Col>

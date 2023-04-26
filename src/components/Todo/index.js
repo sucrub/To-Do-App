@@ -3,8 +3,8 @@ import { useState } from 'react';
 
 const priorityColorMapping = {
   High: 'red',
-  Medium: 'blue',
-  Low: 'gray',
+  Medium: 'yellow',
+  Low: 'green',
 };
 
 export default function Todo({ name, prioriry }) {
