@@ -1,7 +1,19 @@
 const initState = [
-  { id: 1, name: "Learn A", completed: false, priority: "Medium" },
-  { id: 2, name: "Study B", completed: true, priority: "High" },
-  { id: 3, name: "Studying C", completed: false, priority: "Low" },
+  { id: 1, name: "Learn Assembly", completed: false, priority: "Medium" },
+  { id: 2, name: "Study Database", completed: true, priority: "High" },
+  {
+    id: 3,
+    name: "Studying Computer Science",
+    completed: false,
+    priority: "Low",
+  },
+  {
+    id: 4,
+    name: "Try to remember all of the song from Folklore",
+    completed: false,
+    priority: "High",
+  },
+  { id: 5, name: "Crying in the room", completed: true, priority: "Low" },
 ];
 
 const todoListReducer = (state = initState, action) => {
